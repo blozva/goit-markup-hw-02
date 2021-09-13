@@ -1,4 +1,7 @@
 /* логотип */
+.page {
+    background: #FFFFFF;
+}
 .logo {
   font-family: Raleway;
   font-style: normal;
@@ -7,7 +10,6 @@
   line-height: 31px;
   letter-spacing: 0.03em;
 }
-
 .text {
   font-family: Raleway;
   font-style: normal;
@@ -17,3 +19,44 @@
   letter-spacing: 0.03em;
   color: #2196f3;
 }
+
+/* шапка */
+.header {
+  background:#b43e3e;
+}
+.site-nav .link {
+  color:#212121;
+}
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color:#2196F3;
+}
+.auth-nav .link {
+color:#757575;
+}
+.auth-nav .link:hover, 
+.site-nav .link:focus {
+    color:#2196F3;
+}
+/* для прибирання непотрибних елементів.list {
+  list-style: none;}*/
+.list {
+  list-style: none;
+
+/* основний контент */
+
+
+
+/* колір заголовків з h2
+#212121; */
+
+/* основний колір ттексту 
+ #757575; */
+
+/* h1 -білий
+ #FFFFFF; */
+
+/* акцент 
+background: #2196F3;
+(box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;)*/ ;
