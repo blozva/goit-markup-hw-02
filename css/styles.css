@@ -1,16 +1,9 @@
-/* логотип */
 .page {
-  background: #ffffff;
+  font-family: ;
+  background-color: #ffffff;
 }
+/* логотип */
 .logo {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
-}
-.text {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -19,10 +12,12 @@
   letter-spacing: 0.03em;
   color: #2196f3;
 }
+.logo .text {
+  color: #212121;
+}
 
 /* шапка */
 .header {
-  background: #b43e3e;
 }
 .site-nav .link {
   color: #212121;
@@ -38,6 +33,52 @@
 .site-nav .link:focus {
   color: #2196f3;
 }
-.list {
-  list-style: none;
+/* прибирає крапочки */
+li {
+  list-style-type: none;
+}
+/* прибирає підкреслювання у посилань*/
+a {
+  text-decoration: none;
+}
+/* основний блок */
+.hero {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.button {
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.section-title {
+  color: #212121;
+}
+.section-title {
+  color: #212121;
+}
+/* наша команда */
+.team {
+  background-color: #f5f4fa;
+}
+.people {
+  background-color: #ffffff;
+}
+/* footer */
+.hero .text {
+  color: #ffffff;
+}
+.footer {
+  font-style: normal;
 }
