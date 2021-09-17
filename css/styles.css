@@ -25,18 +25,14 @@ a {
 /* -----логотип -----*/
 .logo {
   font-family: Raleway;
-  font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--accent-color);
 }
 .logo .text {
   font-family: Raleway;
-  font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 /* навігація */
@@ -91,6 +87,7 @@ a {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 .button {
   width: 128px;
@@ -106,13 +103,27 @@ a {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
 .button:hover,
 .button:focus {
   color: var(--primary-title-color);
   background-color: var(--accent-color);
 }
-/* заголовки h2*/
+/*---Заголовки h2 (Portfolio h1)---*/
+/* -Приховані заголовки- */
+.title:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .headline {
   font-family: Roboto;
   font-weight: bold;
